@@ -8,7 +8,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {"eslint-lsp","rust_analyzer","pyright","css-lsp","bash-language-server","clangd"},
+  ensure_installed = {"rust_analyzer","pyright","clangd","eslint","gopls","cssls"},
   handlers = {
     lsp_zero.default_setup,
   },
